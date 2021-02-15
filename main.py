@@ -48,5 +48,5 @@ for i in range(600):
             Result.append([5, i, j])
 
 df = pd.DataFrame(Result, columns=['Die', 'x', 'y'])
-df.to_csv('KLA_ANS.csv')
+df.to_csv('ANS.csv')
 
